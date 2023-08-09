@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+}
+/* Header */
+.header {
+    position: relative;
+        /* Опредеяем модел флех бох блок .header */
+    
+        display: flex;
+        flex-direction: column; /* Выстраниваем flex-элементы б колонку,основная осъ - y*/
+        justify-content: center;  /* Выравнивание по основнгои оси */
+        align-items: center;/* Выравнивание по поперечнои оси*/
+
+    width: 100%;
+    height: 100vh;
+
+    background-color: #556983;
+    background-image: url('./../img/header/header-bg.jpg');
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.header-title {
+    margin: 0;
+    margin-bottom: 25px
+    ;font-weight: 700;
+    font-size: 56px;
+    line-height: 130%;
+    text-align: center;
+   color: #fff;
+}
+.header-cubtitle {
+    margin: 0;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #FFF;
+
+}
+
+.header-arrow{
+    width: 48px;
+    height: 48px;
+  /*  background-color: red;*/
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50% 0);
+}
